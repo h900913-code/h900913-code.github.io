@@ -1,0 +1,16 @@
+{
+  "ko": [
+    { "label": "소개", "url": "/ko/" },
+    { "label": "연구 관심사", "url": "/ko/research/" },
+    { "label": "연구성과", "url": "/ko/publications/" },
+    { "label": "프로젝트", "url": "/ko/projects/" },
+    { "label": "연락처", "url": "/ko/contact/" }
+  ],
+  "en": [
+    { "label": "Bio", "url": "/en/" },
+    { "label": "Research", "url": "/en/research/" },
+    { "label": "Publications", "url": "/en/publications/" },
+    { "label": "Projects", "url": "/en/projects/" },
+    { "label": "Contact", "url": "/en/contact/" }
+  ]
+}

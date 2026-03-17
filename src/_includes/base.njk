@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ pageTitle }} | {{ site.title[lang] }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/{{ lang }}/" class="site-name">{{ site.name[lang] }}</a>
+      <nav class="main-nav">
+        <button class="nav-toggle" aria-label="메뉴 열기" aria-expanded="false">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <ul class="nav-list">
+          {%- for item in navigation[lang] %}
+          <li><a href="{{ item.url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.label }}</a></li>
+          {%- endfor %}
+        </ul>
+      </nav>
+      <div class="lang-switch">
+        {%- if lang == "ko" %}
+        <span class="lang-current">한국어</span>
+        <a href="{{ page.url | otherLangUrl('ko') }}" class="lang-other">English</a>
+        {%- else %}
+        <a href="{{ page.url | otherLangUrl('en') }}" class="lang-other">한국어</a>
+        <span class="lang-current">English</span>
+        {%- endif %}
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="content-wrap">
+      {{ content | safe }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; {{ site.name[lang] }}</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggle = document.querySelector('.nav-toggle');
+      const navList = document.querySelector('.nav-list');
+      if (toggle) {
+        toggle.addEventListener('click', function() {
+          const expanded = this.getAttribute('aria-expanded') === 'true';
+          this.setAttribute('aria-expanded', !expanded);
+          navList.classList.toggle('nav-open');
+        });
+      }
+    });
+  </script>
+</body>
+</html>
