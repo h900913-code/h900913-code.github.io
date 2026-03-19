@@ -4,8 +4,17 @@
     "en": "Park Jeonghyeon"
   },
   "title": {
-    "ko": "박정현 - 학술 홈페이지",
+    "ko": "박정현 - 학술 개인 홈페이지",
     "en": "Park Jeonghyeon - Academic Homepage"
   },
+  "description": {
+    "ko": "서울대학교 환경대학원 환경계획학 박사과정 박정현의 학술 개인 홈페이지입니다.",
+    "en": "Academic homepage of Park Jeonghyeon, Ph.D. Candidate in Environmental Planning at Seoul National University."
+  },
+  "locale": {
+    "ko": "ko_KR",
+    "en": "en_US"
+  },
+  "url": "https://h900913-code.github.io",
   "defaultLang": "ko"
 }

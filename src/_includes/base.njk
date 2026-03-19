@@ -1,9 +1,32 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}">
 <head>
+  {% set metaTitle = pageTitle + " | " + site.title[lang] %}
+  {% set metaDescription = pageDescription or site.description[lang] %}
+  {% set canonicalUrl = site.url + page.url %}
+  {% set alternateLang = "en" if lang == "ko" else "ko" %}
+  {% set alternateUrl = site.url + (page.url | otherLangUrl(lang)) %}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ pageTitle }} | {{ site.title[lang] }}</title>
+  <title>{{ metaTitle }}</title>
+  <meta name="description" content="{{ metaDescription }}">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#1a3a5c">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ metaTitle }}">
+  <meta property="og:description" content="{{ metaDescription }}">
+  <meta property="og:url" content="{{ canonicalUrl }}">
+  <meta property="og:site_name" content="{{ site.title[lang] }}">
+  <meta property="og:locale" content="{{ site.locale[lang] }}">
+  <meta property="og:image" content="{{ site.url }}/assets/images/profile.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ metaTitle }}">
+  <meta name="twitter:description" content="{{ metaDescription }}">
+  <link rel="canonical" href="{{ canonicalUrl }}">
+  <link rel="alternate" hreflang="{{ lang }}" href="{{ canonicalUrl }}">
+  <link rel="alternate" hreflang="{{ alternateLang }}" href="{{ alternateUrl }}">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/ko/">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
