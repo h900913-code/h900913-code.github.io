@@ -11,13 +11,8 @@ pageTitle: "Contact"
   <li><strong>Address:</strong> 1 Gwanak-ro, Gwanak-gu, Seoul 08826, Republic of Korea</li>
 </ul>
 
-<!-- TODO: Add external profile links as applicable -->
+## External Profiles
 
-<div class="todo">
-TODO: Add external profile links (as applicable).<br>
-- Google Scholar<br>
-- ORCID<br>
-- ResearchGate<br>
-- GitHub<br>
-- LinkedIn
-</div>
+<ul class="contact-list">
+  <li><strong>GitHub:</strong> <a href="https://github.com/h900913-code" target="_blank" rel="noopener noreferrer">github.com/h900913-code</a></li>
+</ul>

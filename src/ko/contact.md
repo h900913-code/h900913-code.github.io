@@ -11,13 +11,8 @@ pageTitle: "연락처"
   <li><strong>주소:</strong> 08826 서울특별시 관악구 관악로 1, 서울대학교</li>
 </ul>
 
-<!-- TODO: 필요에 따라 아래 프로필 링크를 추가하세요 -->
+## 외부 프로필
 
-<div class="todo">
-TODO: 외부 프로필 링크를 추가하세요 (해당하는 항목만).<br>
-- Google Scholar<br>
-- ORCID<br>
-- ResearchGate<br>
-- GitHub<br>
-- LinkedIn
-</div>
+<ul class="contact-list">
+  <li><strong>GitHub:</strong> <a href="https://github.com/h900913-code" target="_blank" rel="noopener noreferrer">github.com/h900913-code</a></li>
+</ul>
