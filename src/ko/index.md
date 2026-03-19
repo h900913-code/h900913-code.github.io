@@ -3,7 +3,7 @@ pageTitle: "소개"
 ---
 
 <div class="profile-section">
-  <div class="profile-photo-placeholder">프로필 사진<br>(assets/images/에 추가)</div>
+  <img src="/assets/images/profile.jpg" alt="박정현" class="profile-photo">
   <div class="profile-info">
 
 # 박정현

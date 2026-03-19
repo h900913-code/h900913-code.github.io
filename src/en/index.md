@@ -3,7 +3,7 @@ pageTitle: "Bio"
 ---
 
 <div class="profile-section">
-  <div class="profile-photo-placeholder">Profile Photo<br>(Add to assets/images/)</div>
+  <img src="/assets/images/profile.jpg" alt="Park Jeonghyeon" class="profile-photo">
   <div class="profile-info">
 
 # Park Jeonghyeon
