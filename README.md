@@ -2,8 +2,9 @@
 
 한국어/영어 이중 언어를 지원하는 학술용 개인 홈페이지입니다.
 
-**현재 상태**: 사이트 구축 및 GitHub 배포 완료  
-**배포 URL**: https://h900913-code.github.io
+**현재 상태**: 사이트 구축, 콘텐츠 반영, GitHub 저장소 연결, GitHub Actions 워크플로우 작성까지 완료  
+**배포 대상 URL**: `https://h900913-code.github.io`  
+**현재 이슈**: 2026-03-19 기준 브라우저에서 `DNS_PROBE_FINISHED_NXDOMAIN` 확인. 코드 문제라기보다 GitHub Pages 활성화 또는 도메인 프로비저닝 지연 가능성이 큼.
 
 ---
 
@@ -20,6 +21,63 @@
 - 런타임: Node.js 18+
 - 배포: GitHub Pages + GitHub Actions
 
+## 현재까지 완료한 작업
+
+- Eleventy 기반 한/영 이중언어 사이트 구조 구현
+- 노션 기반 실제 CV 콘텐츠 반영
+- 연락처 페이지에 GitHub 프로필 링크 추가
+- 프로필 사진 반영: `src/assets/images/profile.jpg`
+- favicon 추가: `src/assets/favicon.svg`
+- 기본 SEO 메타태그 추가
+  - description
+  - canonical
+  - Open Graph
+  - Twitter card
+  - hreflang
+- GitHub 저장소 `h900913-code/h900913-code.github.io` 생성
+- 로컬 저장소와 `origin` 연결, `main` push 완료
+- GitHub Actions 배포 워크플로우 작성 및 원격 반영 완료
+
+## 현재 확인된 문제
+
+- 로컬 빌드는 정상 동작함
+  - 명령: `npm.cmd run build`
+- 원격 저장소에는 워크플로우 파일이 올라가 있음
+  - 파일: `.github/workflows/deploy.yml`
+- 하지만 `https://h900913-code.github.io` 접속 시 `DNS_PROBE_FINISHED_NXDOMAIN`
+- 따라서 다음 원인 중 하나일 가능성이 큼
+  - GitHub Repository의 `Settings > Pages > Source`가 아직 `GitHub Actions`로 설정되지 않음
+  - GitHub Actions가 아직 실제로 실행되지 않음
+  - GitHub Pages 도메인 프로비저닝이 아직 안 끝남
+
+## 다음에 들어와서 바로 해야 할 일
+
+### 1. GitHub Pages 상태 확인
+
+GitHub 저장소 `h900913-code/h900913-code.github.io`에서 아래를 확인:
+
+1. `Settings > Pages`
+2. `Build and deployment`의 `Source`가 `GitHub Actions`인지 확인
+3. `Actions` 탭에서 `Build and Deploy to GitHub Pages` 워크플로우 실행 여부 확인
+
+### 2. Actions가 안 돌았으면 배포 트리거
+
+둘 중 하나 수행:
+
+- `Actions` 탭에서 workflow 수동 실행
+- 혹은 로컬에서 사소한 문서 수정 후 다시 push
+
+```bash
+git add .
+git commit -m "Trigger GitHub Pages deployment"
+git push
+```
+
+### 3. 사이트 접속 재확인
+
+- `https://h900913-code.github.io`
+- 저장소 생성 직후에는 반영이 지연될 수 있으므로 몇 분에서 최대 하루 정도 지켜볼 수 있음
+
 ## 페이지 구조
 
 | 페이지 | 한국어 | 영어 |
@@ -30,69 +88,30 @@
 | 프로젝트 | `/ko/projects/` | `/en/projects/` |
 | 연락처 | `/ko/contact/` | `/en/contact/` |
 
-- 기본 언어는 한국어이며 `/` 접속 시 `/ko/`로 이동합니다.
-- 상단 언어 전환 UI로 현재 페이지 기준 한/영 전환이 가능합니다.
+- 기본 언어는 한국어이며 `/` 접속 시 `/ko/`로 이동
+- 상단 언어 전환 UI로 현재 페이지 기준 한/영 전환 가능
 
-## 폴더 구조
+## 주요 파일
 
 ```text
 CV_homepage/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml
-├── src/
-│   ├── _data/
-│   │   ├── navigation.json
-│   │   └── site.json
-│   ├── _includes/
-│   │   └── base.njk
-│   ├── assets/
-│   │   ├── css/style.css
-│   │   ├── favicon.svg
-│   │   └── images/profile.jpg
-│   ├── ko/
-│   ├── en/
-│   └── index.njk
-├── eleventy.config.js
-├── package.json
+├── .github/workflows/deploy.yml
+├── src/_data/site.json
+├── src/_includes/base.njk
+├── src/assets/css/style.css
+├── src/assets/favicon.svg
+├── src/assets/images/profile.jpg
+├── src/ko/
+├── src/en/
 ├── README.md
 └── WORKLOG.md
 ```
 
-## 운영 방법
-
-### 내용 수정
-
-1. `src/ko/` 또는 `src/en/`의 Markdown 파일을 수정합니다.
-2. 로컬에서 확인합니다.
-
-```bash
-npm.cmd run build
-```
-
-3. 변경 사항을 커밋하고 push하면 GitHub Actions가 자동 배포합니다.
-
-```bash
-git add .
-git commit -m "Update content"
-git push
-```
-
-### 프로필 사진 교체
-
-- 파일 위치: `src/assets/images/profile.jpg`
-- 소개 페이지는 해당 파일을 자동으로 참조합니다.
-
-### SEO / favicon
-
-- 공통 메타태그와 canonical, Open Graph, hreflang은 `src/_includes/base.njk`에서 관리합니다.
-- 사이트 기본 메타데이터는 `src/_data/site.json`에서 관리합니다.
-- favicon은 `src/assets/favicon.svg`입니다.
-
-## 로컬 실행
+## 로컬 확인 방법
 
 ```bash
 npm install
+npm.cmd run build
 npm.cmd run dev
 ```
 
@@ -100,7 +119,7 @@ npm.cmd run dev
 
 ## 운영 원칙
 
-- 한국어와 영어 콘텐츠는 가능한 한 함께 갱신합니다.
-- 검증되지 않은 경력, 논문, 수상 정보는 추가하지 않습니다.
-- `_site/`는 빌드 결과물이므로 직접 수정하지 않습니다.
-- 큰 변경이나 외부 데이터 반영 후에는 `WORKLOG.md`에 기록합니다.
+- 한국어와 영어 콘텐츠는 가능한 한 같이 갱신
+- 검증되지 않은 경력, 논문, 수상 정보는 추가하지 않음
+- `_site/`는 빌드 결과물이므로 직접 수정하지 않음
+- 큰 변경이나 외부 데이터 반영 후에는 `WORKLOG.md`에 기록
