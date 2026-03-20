@@ -60,11 +60,17 @@ pageDescription: "Journal articles, conference presentations, awards, and schola
 <div class="pub-item">
   <div class="pub-title">A Review of Text Mining Methods in Domestic Environmental Communication Research: Focusing on the Use of Commercial Software</div>
   <div class="pub-meta"><strong>Park, J.</strong> 2025 Annual Conference of the Korean Association for Environmental Sociology, Seoul. Nov. 2025.</div>
+  <div class="pub-links">
+    <a class="pub-link" href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12493835">Proceedings</a>
+  </div>
 </div>
 
 <div class="pub-item">
   <div class="pub-title">Analyzing Comments on Internet Articles about the Climate Crisis: Focusing on the Timing of the 2020 Summer Extreme Weather Event</div>
   <div class="pub-meta"><strong>Park, J.</strong> & Yun, S.-J. 2024 Annual Conference of the Korean Association for Environmental Sociology, Cheongju. Nov. 2024.</div>
+  <div class="pub-links">
+    <a class="pub-link" href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11994268">Proceedings</a>
+  </div>
 </div>
 
 <div class="pub-item">
