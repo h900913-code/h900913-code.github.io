@@ -1,17 +1,18 @@
 <!DOCTYPE html>
+{% set metaTitle = pageTitle + " | " + site.title[lang] %}
+{% set metaDescription = pageDescription or site.description[lang] %}
+{% set canonicalUrl = site.url + page.url %}
+{% set alternateLang = "en" if lang == "ko" else "ko" %}
+{% set alternateUrl = site.url + (page.url | otherLangUrl(lang)) %}
+{% set isHome = page.url == "/ko/" or page.url == "/en/" %}
 <html lang="{{ lang }}">
 <head>
-  {% set metaTitle = pageTitle + " | " + site.title[lang] %}
-  {% set metaDescription = pageDescription or site.description[lang] %}
-  {% set canonicalUrl = site.url + page.url %}
-  {% set alternateLang = "en" if lang == "ko" else "ko" %}
-  {% set alternateUrl = site.url + (page.url | otherLangUrl(lang)) %}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ metaTitle }}</title>
   <meta name="description" content="{{ metaDescription }}">
   <meta name="robots" content="index, follow">
-  <meta name="theme-color" content="#163a38">
+  <meta name="theme-color" content="#16333c">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ metaTitle }}">
   <meta property="og:description" content="{{ metaDescription }}">
@@ -29,35 +30,39 @@
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Serif+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body class="page-shell">
+<body class="{% if isHome %}page-home{% else %}page-inner{% endif %}">
+  <a class="skip-link" href="#content">{{ "본문으로 건너뛰기" if lang == "ko" else "Skip to content" }}</a>
+
+  <div class="site-bg" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
   <header class="site-header">
     <div class="header-inner">
-      <a href="/{{ lang }}/" class="site-brand">
-        <span class="site-name">{{ site.name[lang] }}</span>
-        <span class="site-tagline">
-          {%- if lang == "ko" -%}
-          환경 커뮤니케이션 · 텍스트 마이닝
-          {%- else -%}
-          Environmental Communication · Text Mining
-          {%- endif -%}
-        </span>
+      <a href="/{{ lang }}/" class="site-name">
+        <span class="site-mark" aria-hidden="true"></span>
+        <span class="site-name-text">{{ site.name[lang] }}</span>
       </a>
-      <nav class="main-nav">
-        <button class="nav-toggle" aria-label="메뉴 열기" aria-expanded="false">
+
+      <nav class="main-nav" aria-label="{{ '주요 메뉴' if lang == 'ko' else 'Primary navigation' }}">
+        <button class="nav-toggle" aria-label="{{ '메뉴 열기' if lang == 'ko' else 'Open menu' }}" aria-expanded="false" aria-controls="nav-list">
           <span class="nav-toggle-bar"></span>
           <span class="nav-toggle-bar"></span>
           <span class="nav-toggle-bar"></span>
         </button>
-        <ul class="nav-list">
+        <ul class="nav-list" id="nav-list">
           {%- for item in navigation[lang] %}
           <li><a href="{{ item.url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.label }}</a></li>
           {%- endfor %}
         </ul>
       </nav>
-      <div class="lang-switch">
+
+      <div class="lang-switch" aria-label="{{ '언어 전환' if lang == 'ko' else 'Language switch' }}">
         {%- if lang == "ko" %}
         <span class="lang-current">한국어</span>
         <a href="{{ page.url | otherLangUrl('ko') }}" class="lang-other">English</a>
@@ -69,33 +74,41 @@
     </div>
   </header>
 
-  <main class="site-main">
-    <div class="page-frame">
-      <div class="content-wrap">
+  <main class="site-main" id="content">
+    <div class="content-wrap">
+      <article class="page-shell{% if isHome %} page-shell-home{% endif %}">
         {{ content | safe }}
-      </div>
+      </article>
     </div>
   </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <p class="footer-title">{{ site.title[lang] }}</p>
-      <p class="footer-copy">{{ site.description[lang] }}</p>
-      <p class="footer-meta">&copy; {{ site.name[lang] }}</p>
+      <p class="footer-name">{{ site.name[lang] }}</p>
+      <p class="footer-meta">
+        {% if lang == "ko" %}
+        환경계획 · 환경 커뮤니케이션 · 텍스트 마이닝
+        {% else %}
+        Environmental Planning · Climate Communication · Text Mining
+        {% endif %}
+      </p>
     </div>
   </footer>
 
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       const toggle = document.querySelector('.nav-toggle');
       const navList = document.querySelector('.nav-list');
-      if (toggle && navList) {
-        toggle.addEventListener('click', function() {
-          const expanded = this.getAttribute('aria-expanded') === 'true';
-          this.setAttribute('aria-expanded', String(!expanded));
-          navList.classList.toggle('nav-open');
-        });
+
+      if (!toggle || !navList) {
+        return;
       }
+
+      toggle.addEventListener('click', function () {
+        const expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', String(!expanded));
+        navList.classList.toggle('nav-open');
+      });
     });
   </script>
 </body>
