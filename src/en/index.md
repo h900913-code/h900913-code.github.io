@@ -1,13 +1,13 @@
 ---
 pageTitle: "Bio"
-pageDescription: "Academic homepage of Park Jeonghyeon, Ph.D. candidate in Environmental Planning at Seoul National University."
+pageDescription: "Academic homepage of Park Jeonghyeon, who completed doctoral coursework in Environmental Planning at Seoul National University."
 ---
 
 <section class="hero-section">
   <div class="hero-copy">
     <p class="eyebrow">Environmental Planning · Climate Communication · Text Mining</p>
     <h1 class="hero-display">Park Jeonghyeon studies how environmental issues are read through discourse and data.</h1>
-    <p class="hero-summary">He is a Ph.D. candidate in Environmental Planning at Seoul National University, connecting environmental communication and text mining across climate discourse, energy policy, and inter-Korean environmental cooperation.</p>
+    <p class="hero-summary">He completed doctoral coursework in Environmental Planning at Seoul National University in September 2023 and continues his research on environmental communication and text mining across climate discourse, energy policy, and inter-Korean environmental cooperation.</p>
 
     <div class="hero-actions">
       <a class="button button-primary" href="/en/publications/">View Publications</a>
@@ -26,7 +26,7 @@ pageDescription: "Academic homepage of Park Jeonghyeon, Ph.D. candidate in Envir
     <img src="/assets/images/profile.jpg" alt="Park Jeonghyeon" class="profile-photo">
     <div class="identity-card">
       <p class="identity-label">Current Role</p>
-      <h2 class="identity-title">Ph.D. Candidate in Environmental Planning</h2>
+      <h2 class="identity-title">Completed Doctoral Coursework in Environmental Planning</h2>
       <ul class="meta-list">
         <li>
           <span>Affiliation</span>
@@ -49,9 +49,9 @@ pageDescription: "Academic homepage of Park Jeonghyeon, Ph.D. candidate in Envir
   <div class="snapshot-card">
     <div>
       <span class="snapshot-value">2021~</span>
-      <span class="snapshot-label">Doctoral Track</span>
+      <span class="snapshot-label">Coursework Completed</span>
     </div>
-    <p>Ongoing Ph.D. studies in Environmental Planning</p>
+    <p>Research continuing after doctoral coursework completion in Sept. 2023</p>
   </div>
   <div class="snapshot-card">
     <div>
@@ -82,7 +82,7 @@ pageDescription: "Academic homepage of Park Jeonghyeon, Ph.D. candidate in Envir
     <h2>Research Profile</h2>
   </div>
   <div class="section-panel">
-    <p>Park Jeonghyeon is a Ph.D. candidate in Environmental Planning at the Graduate School of Environmental Studies, Seoul National University. His research focuses on environmental communication and text mining, with particular attention to climate crisis discourse, energy policy, and inter-Korean environmental cooperation.</p>
+    <p>Park Jeonghyeon completed doctoral coursework in Environmental Planning at the Graduate School of Environmental Studies, Seoul National University in September 2023 and continues his research there. His research focuses on environmental communication and text mining, with particular attention to climate crisis discourse, energy policy, and inter-Korean environmental cooperation.</p>
     <p>He earned a Bachelor's degree in Political Science and Diplomacy with a double major in Sociology from Korea University, followed by a Master's degree in Environmental Planning from Seoul National University. His work combines social-scientific inquiry with computational text analysis.</p>
   </div>
 </section>
@@ -133,8 +133,13 @@ pageDescription: "Academic homepage of Park Jeonghyeon, Ph.D. candidate in Envir
     <h2>Academic Training</h2>
     <div class="timeline-list">
       <div class="timeline-item">
-        <p class="timeline-date">Sept. 2021 ~ Present</p>
-        <h3>Ph.D. Candidate in Environmental Planning</h3>
+        <p class="timeline-date">Sept. 2023 ~ Present</p>
+        <h3>Ph.D. Coursework Completed in Environmental Planning</h3>
+        <p>Graduate School of Environmental Studies, Seoul National University, Seoul</p>
+      </div>
+      <div class="timeline-item">
+        <p class="timeline-date">Sept. 2021 ~ Aug. 2023</p>
+        <h3>Doctoral Coursework in Environmental Planning</h3>
         <p>Graduate School of Environmental Studies, Seoul National University, Seoul</p>
       </div>
       <div class="timeline-item">
