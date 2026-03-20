@@ -1,8 +1,13 @@
 ---
 pageTitle: "연구성과"
+pageDescription: "박정현의 학술지 논문, 학회 발표, 수상 및 장학 내역입니다."
 ---
 
-# 연구성과
+<div class="page-intro">
+  <p class="eyebrow">Publications</p>
+  <h1>연구성과</h1>
+  <p>학술지 논문, 학회 발표, 수상 및 장학 내역을 한곳에 정리했습니다. 주저자 연구와 공동 연구를 함께 볼 수 있습니다.</p>
+</div>
 
 ## 학술지 논문
 

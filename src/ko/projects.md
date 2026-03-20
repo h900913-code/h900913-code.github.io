@@ -1,8 +1,13 @@
 ---
 pageTitle: "프로젝트"
+pageDescription: "박정현이 참여한 주요 연구 프로젝트 목록입니다."
 ---
 
-# 연구 프로젝트
+<div class="page-intro">
+  <p class="eyebrow">Projects</p>
+  <h1>연구 프로젝트</h1>
+  <p>에너지 전환, 기후 담론, 남북 환경 협력, 환경대학원 역사 연구 등 다양한 주제의 프로젝트에 참여해 왔습니다.</p>
+</div>
 
 <div class="proj-item">
   <div class="proj-title">지역 협력형 민간 RE100 이행 방안 수립 연구</div>

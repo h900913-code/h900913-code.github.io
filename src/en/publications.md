@@ -1,8 +1,13 @@
 ---
 pageTitle: "Publications"
+pageDescription: "Journal articles, conference presentations, awards, and scholarships of Park Jeonghyeon."
 ---
 
-# Publications
+<div class="page-intro">
+  <p class="eyebrow">Publications</p>
+  <h1>Publications</h1>
+  <p>This page brings together journal articles, conference presentations, awards, and scholarships, covering both first-author work and collaborative research.</p>
+</div>
 
 ## Journal Articles
 

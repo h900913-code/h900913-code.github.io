@@ -1,8 +1,13 @@
 ---
 pageTitle: "Projects"
+pageDescription: "Selected research projects involving Park Jeonghyeon."
 ---
 
-# Research Projects
+<div class="page-intro">
+  <p class="eyebrow">Projects</p>
+  <h1>Research Projects</h1>
+  <p>His project work spans energy transition, climate discourse, inter-Korean environmental cooperation, and institutional research on environmental education.</p>
+</div>
 
 <div class="proj-item">
   <div class="proj-title">Study on Formulating a Regionally Collaborative Private RE100 Implementation Plan</div>
