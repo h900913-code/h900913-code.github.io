@@ -56,6 +56,21 @@ html:lang(en) body {
   font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
+html:lang(en) .page-shell,
+html:lang(en) .page-shell h1,
+html:lang(en) .page-shell h2,
+html:lang(en) .page-shell h3,
+html:lang(en) .page-shell p,
+html:lang(en) .page-shell li,
+html:lang(en) .nav-list a,
+html:lang(en) .button,
+html:lang(en) .site-name,
+html:lang(en) .footer-meta {
+  word-break: normal;
+  overflow-wrap: normal;
+  hyphens: manual;
+}
+
 html:lang(en) h1,
 html:lang(en) h2,
 html:lang(en) h3,
@@ -75,6 +90,21 @@ html:lang(ko) .snapshot-value {
   font-family: "IBM Plex Sans KR", "Noto Sans KR", -apple-system, BlinkMacSystemFont,
     "Segoe UI", sans-serif;
   font-weight: 700;
+}
+
+html:lang(ko) .page-shell,
+html:lang(ko) .page-shell h1,
+html:lang(ko) .page-shell h2,
+html:lang(ko) .page-shell h3,
+html:lang(ko) .page-shell p,
+html:lang(ko) .page-shell li,
+html:lang(ko) .nav-list a,
+html:lang(ko) .button,
+html:lang(ko) .site-name,
+html:lang(ko) .footer-meta {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  line-break: strict;
 }
 
 img {
@@ -354,6 +384,7 @@ hr {
 
 .page-shell p {
   margin-bottom: 1rem;
+  text-wrap: pretty;
 }
 
 .page-shell ul,
