@@ -1,6 +1,26 @@
-# WORKLOG
+﻿# WORKLOG
 
 ---
+
+## 2026-03-20 (6일차 - 논문/발표 링크 및 문서 정리)
+### 작업 목표
+
+- 이중 언어 publications 페이지에 공식 DOI/Proceedings 링크를 연결하여 "논문·발표 → 원문" 흐름을 완성
+- 최근 멀티 에이전트 조사 결과와 디자인/타이포 변화를 `README.md`/`DESIGN_NOTES.md`에 반영
+- 린터/빌드(`npm.cmd run build`)를 확인한 뒤 로그와 배포 상태를 정리
+
+### 수행 내용
+
+- DOI 3건, 학회 논문 1건에 공식 DOI/저널 링크를, 발표 8건에 공식 Proceedings/프로그램/뉴스레터 링크를 한영 페이지에 추가하고 `pub-link` 버튼 스타일을 만들었습니다.
+- 2024·2025 한국환경사회학회 발표는 공식 DBpia Proceedings 항목을 대응시켜 `Proceedings` 링크를 붙였고, Urban Transitions 2022·한국기후변화학회 2021 등은 공식 PDF/프로그램을 연결했습니다.
+- 멀티 에이전트로 유명 개인 홈페이지 사례(예: Seth Godin, Maggie Appleton) 조사를 통해 랜딩 타이포/구조를 정리했고, `DESIGN_NOTES.md`와 README에 요약을 남겼습니다.
+- 문서 갱신 중에도 `npm.cmd run build`는 통과했고, 커밋 `3a01c27`, `49f0256` 이후 `main`에서 GitHub Actions 배포를 유지 중입니다.
+
+### 검증 및 다음
+
+- `npm.cmd run build` 정상, GitHub Actions 배포 흐름 유지
+- 추가 링크로 누락된 발표(한국환경사회학회 2025 등)의 공식 표기/제목 변화를 검토하고 필요 시 문서에 후속 기록 예정
+
 
 ## 2026-03-19 (5차) - 배포 상태 점검 및 문서 최신화
 

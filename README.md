@@ -1,12 +1,21 @@
-# 박정현 (Park Jeonghyeon) - 학술 개인 홈페이지
+﻿# 박정현 (Park Jeonghyeon) - 학술 개인 홈페이지
 
 한국어/영어 이중 언어를 지원하는 학술용 개인 홈페이지입니다.
 
 **현재 상태**: 사이트 구축, 콘텐츠 반영, GitHub 저장소 연결, GitHub Actions 워크플로우 작성까지 완료  
 **배포 대상 URL**: `https://h900913-code.github.io`  
-**현재 이슈**: 2026-03-19 기준 브라우저에서 `DNS_PROBE_FINISHED_NXDOMAIN` 확인. 코드 문제라기보다 GitHub Pages 활성화 또는 도메인 프로비저닝 지연 가능성이 큼.
+**?꾩옱 ?댁뒋**: 2026년 3월 20일 기준 https://h900913-code.github.io/ko/ 와 /en/ 모두 200 응답. 멀티 에이전트 조사와 DOI/학회 링크 보완으로 홈 콘텐츠를 최신화했습니다.
 
 ---
+
+## 최근 작업 (2026-03-20)
+
+- 멀티 에이전트를 활용해 Seth Godin, Maggie Appleton, Bret Victor, Robin Sloan, Fei-Fei Li 등의 개인 홈페이지 흐름을 참고하여 랜딩 페이지 구조와 타이포그래피를 정리했습니다(`DESIGN_NOTES.md` 참고).
+- `publications` 페이지에 DOI/학회·자료집 링크를 추가하고 `pub-link` 버튼 스타일을 만들었으며, 2024·2025 환경사회학회 발표 항목은 Proceedings/자료집 페이지와 매핑했습니다.
+- 그 외 발표(2023 겨울 워크숍, Urban Transitions 2022, 한국기후변화학회 2021, 한국환경정책행정학회 2020 등)는 가능한 공개 PDF/프로그램 링크를 연결하여 "문헌 → 공식 자료" 흐름을 채웠습니다.
+- 주소 삭제, `박사수료` 상태 명시, 한글 줄바꿈 개선, 폰트/타입 조정 등은 최근 커밋(`5d2daa8`, `de2709e`, `94fa1be`)에 반영되었으며, 이틀간 DOI·학회 링크 추가(`3a01c27`, `49f0256`)와 빌드+배포를 마쳤습니다.
+- `npm.cmd run build`는 `main` 기준으로 통과하며, `deploy.yml`을 거쳐 GitHub Pages에 자동 배포되고 있습니다.
+
 
 ## 프로젝트 목적
 
@@ -44,7 +53,7 @@
   - 명령: `npm.cmd run build`
 - 원격 저장소에는 워크플로우 파일이 올라가 있음
   - 파일: `.github/workflows/deploy.yml`
-- 하지만 `https://h900913-code.github.io` 접속 시 `DNS_PROBE_FINISHED_NXDOMAIN`
+**?꾩옱 ?댁뒋**: 2026년 3월 20일 기준 https://h900913-code.github.io/ko/ 와 /en/ 모두 200 응답. 멀티 에이전트 조사와 DOI/학회 링크 보완으로 홈 콘텐츠를 최신화했습니다.
 - 따라서 다음 원인 중 하나일 가능성이 큼
   - GitHub Repository의 `Settings > Pages > Source`가 아직 `GitHub Actions`로 설정되지 않음
   - GitHub Actions가 아직 실제로 실행되지 않음
