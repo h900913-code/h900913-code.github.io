@@ -39,7 +39,7 @@ def render_list(lang):
         o.append("")
     o.append(f"## {H['journal']}")
     for role in ("first", "co", "other"):
-        items = [a for a in d["journal_articles"] if a["role"] == role]
+        items = sorted([a for a in d["journal_articles"] if a["role"] == role], key=lambda x: x["date"], reverse=True)
         if not items: continue
         o.append(f"### {H[role]}")
         for a in items:
@@ -48,7 +48,7 @@ def render_list(lang):
         o.append("")
     o.append(f"## {H['present']}")
     for role in ("first", "co"):
-        items = [p for p in d["presentations"] if p["role"] == role]
+        items = sorted([p for p in d["presentations"] if p["role"] == role], key=lambda x: x["date"], reverse=True)
         if not items: continue
         o.append(f"### {H[role]}")
         for p in items:

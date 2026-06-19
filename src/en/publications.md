@@ -67,16 +67,16 @@ pageDescription: "Journal articles, conference presentations, awards, and schola
 ### First Author
 
 <div class="pub-item">
+  <div class="pub-title">The Translation and Reconstruction of Climate Change Agendas in International Development Cooperation: A Topic Modeling Analysis of Naver News Articles and Comments (2016–2025)</div>
+  <div class="pub-meta"><strong>Park, J.</strong> 2026 KAIDEC Summer Conference, Dongseo University Centum Campus, Busan. Jun. 2026.</div>
+</div>
+
+<div class="pub-item">
   <div class="pub-title">A Review of Text Mining Methods in Domestic Environmental Communication Research: Focusing on the Use of Commercial Software</div>
   <div class="pub-meta"><strong>Park, J.</strong> 2025 Annual Conference of the Korean Association for Environmental Sociology, Seoul. Nov. 2025.</div>
   <div class="pub-links">
     <a class="pub-link" href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12493835">Proceedings</a>
   </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-title">The Translation of Climate Change Agendas in International Development Cooperation: A Topic Modeling Analysis of Naver News Articles and Comments (2016–2025)</div>
-  <div class="pub-meta"><strong>Park, J.</strong> 2025 Conference of the Korea Association of International Development Cooperation (KAIDEC), Dongseo University, Busan. Jun. 2025.</div>
 </div>
 
 <div class="pub-item">

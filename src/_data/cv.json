@@ -70,10 +70,10 @@
     },
     {
       "role": "first",
-      "title": { "ko": "기후변화 국제개발협력 의제의 번역: 네이버 뉴스 기사·댓글의 토픽모델링 분석(2016–2025)", "en": "The Translation of Climate Change Agendas in International Development Cooperation: A Topic Modeling Analysis of Naver News Articles and Comments (2016–2025)" },
+      "title": { "ko": "기후변화 국제개발협력 의제의 번역과 재구성: 네이버 뉴스 기사·댓글의 토픽모델링 분석(2016~2025)", "en": "The Translation and Reconstruction of Climate Change Agendas in International Development Cooperation: A Topic Modeling Analysis of Naver News Articles and Comments (2016–2025)" },
       "authors": { "ko": "**박정현**", "en": "**Park, J.**" },
-      "venue": { "ko": "2025 국제개발협력학회 학술대회, 동서대학교, 부산", "en": "2025 Conference of the Korea Association of International Development Cooperation (KAIDEC), Dongseo University, Busan" },
-      "date": "2025-06",
+      "venue": { "ko": "2026 국제개발협력학회 하계학술대회, 동서대학교 센텀캠퍼스, 부산", "en": "2026 KAIDEC Summer Conference, Dongseo University Centum Campus, Busan" },
+      "date": "2026-06",
       "note": { "ko": "", "en": "" },
       "links": []
     },
