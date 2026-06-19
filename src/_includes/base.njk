@@ -32,6 +32,30 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.css">
+  {%- if isHome %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": {{ site.name[lang] | dump | safe }},
+    "url": {{ (site.url + page.url) | dump | safe }},
+    "image": {{ (site.url + "/assets/images/profile.jpg") | dump | safe }},
+    "jobTitle": {{ ("환경계획학 박사수료 (학위논문 작성 중)" if lang == "ko" else "Doctoral Candidate in Environmental Planning") | dump | safe }},
+    "affiliation": {
+      "@type": "Organization",
+      "name": {{ ("서울대학교 환경대학원" if lang == "ko" else "Graduate School of Environmental Studies, Seoul National University") | dump | safe }}
+    },
+    "knowsAbout": [
+      {{ ("환경 커뮤니케이션" if lang == "ko" else "Environmental communication") | dump | safe }},
+      {{ ("텍스트 마이닝" if lang == "ko" else "Text mining") | dump | safe }},
+      {{ ("기후변화 담론" if lang == "ko" else "Climate change discourse") | dump | safe }}
+    ],
+    "sameAs": [
+      "https://github.com/h900913-code"
+    ]
+  }
+  </script>
+  {%- endif %}
 </head>
 <body class="{% if isHome %}page-home{% else %}page-inner{% endif %}">
   <a class="skip-link" href="#content">{{ "본문으로 건너뛰기" if lang == "ko" else "Skip to content" }}</a>

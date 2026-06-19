@@ -14,6 +14,7 @@ pageDescription: "Journal articles, conference presentations, awards, and schola
 <div class="pub-item">
   <div class="pub-title">Climate Crisis Perception and Attitudes in Online Spaces: Focusing on Naver News and Comments on the 2020 Summer Extreme Weather Events</div>
   <div class="pub-meta"><strong>Park, J.</strong> Master's Thesis, Department of Environmental Planning, Graduate School of Environmental Studies, Seoul National University. Aug. 2021. <em>(Outstanding Thesis, Faculty Committee)</em></div>
+  <div class="pub-takeaway">Analyzes Naver news and comments during the 2020 summer extreme-weather period to trace how climate-crisis perceptions and attitudes form in online spaces.</div>
 </div>
 
 ---
@@ -25,6 +26,7 @@ pageDescription: "Journal articles, conference presentations, awards, and schola
 <div class="pub-item">
   <div class="pub-title">A Topic Modeling Analysis of Internet Articles Related to the Climate Crisis: Focusing on the Extreme Weather Events in Summer of 2020</div>
   <div class="pub-meta"><strong>Park, J.</strong> & Yun, S.-J. Journal of Social Science, 61(3), 279-300. Dec. 2022. (KCI indexed)</div>
+  <div class="pub-takeaway">Applies LDA topic modeling to climate-crisis internet articles to map the thematic structure and discourse of 2020 summer extreme-weather coverage.</div>
   <div class="pub-links">
     <a class="pub-link" href="https://doi.org/10.22418/JSS.2022.12.61.3.279">DOI</a>
   </div>
@@ -35,6 +37,7 @@ pageDescription: "Journal articles, conference presentations, awards, and schola
 <div class="pub-item">
   <div class="pub-title">Trends in Research on Renewable Energy within North Korea and International Collaboration during Kim Jong Un Era</div>
   <div class="pub-meta">Yun, S.-J., <strong>Park, J.</strong>, & Kim, E. Journal of Peace and Unification Studies. Oct. 2024. (KCI indexed)</div>
+  <div class="pub-takeaway">Reviews trends in renewable-energy research and international collaboration within North Korea during the Kim Jong Un era.</div>
   <div class="pub-links">
     <a class="pub-link" href="https://doi.org/10.35369/jpus.16.2.202409.169">DOI</a>
     <a class="pub-link" href="https://ipus.snu.ac.kr/blog/archives/publishing/9873">Journal</a>
@@ -44,6 +47,7 @@ pageDescription: "Journal articles, conference presentations, awards, and schola
 <div class="pub-item">
   <div class="pub-title">Domestic Climate Change Research and International Research Cooperation Trends in North Korea under Kim Jong Un's Leadership: A Research Topic Analysis</div>
   <div class="pub-meta">Yun, S.-J., Kim, E., & <strong>Park, J.</strong> Journal of Environmental Policy and Administration. Sept. 2024. (KCI indexed)</div>
+  <div class="pub-takeaway">Examines North Korea's domestic climate-change research and international cooperation trends by research topic.</div>
   <div class="pub-links">
     <a class="pub-link" href="https://doi.org/10.15301/jepa.2024.32.3.123">DOI</a>
     <a class="pub-link" href="https://jepa.or.kr/_common/do.php?a=full&aidx=42936&b=22&bidx=3886">Journal</a>
@@ -55,6 +59,7 @@ pageDescription: "Journal articles, conference presentations, awards, and schola
 <div class="pub-item">
   <div class="pub-title">What Has the Graduate School of the Environment Taught and Researched over the Past Half-Century?</div>
   <div class="pub-meta">Gim, T.-H. T., Yun, S.-J., Kim, H., <strong>Park, J.</strong>, Cho, H., Ha, J., Kim, J., & Jeong, S. Journal of Environmental Studies, 72, 6-58. Nov. 2023.</div>
+  <div class="pub-takeaway">A 50th-anniversary collaborative study reflecting on half a century of the graduate school's teaching and research.</div>
   <div class="pub-links">
     <a class="pub-link" href="https://gses.snu.ac.kr/en/publication/journal-of-environmental-studies?jesidx=22&md=view">Journal</a>
   </div>

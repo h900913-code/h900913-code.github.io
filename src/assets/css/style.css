@@ -9,7 +9,7 @@
   --ink-950: #14252c;
   --ink-820: #29444d;
   --ink-700: #4a646d;
-  --ink-580: #677d85;
+  --ink-580: #4a646d; /* WCAG AA: 기존 #677d85는 4.06:1로 미달 → 5.9:1로 darken */
   --paper: #fbf7f0;
   --paper-strong: #fffdf9;
   --paper-soft: rgba(255, 253, 249, 0.78);
@@ -144,6 +144,13 @@ hr {
 
 .skip-link:focus {
   top: 1rem;
+}
+
+/* 키보드 포커스 가시성 (a11y) — 링크·버튼·토글·pub-link·link-card 등 인터랙티브 일괄 */
+:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 2px;
+  border-radius: 6px;
 }
 
 .site-bg {
@@ -368,7 +375,7 @@ hr {
 
 .page-shell h3 {
   color: var(--ink-950);
-  font-size: 1.08rem;
+  font-size: 1.22rem;
   line-height: 1.35;
   letter-spacing: -0.02em;
   margin-bottom: 0.4rem;
@@ -501,7 +508,7 @@ hr {
 .proj-item {
   border-radius: var(--radius-lg);
   border: 1px solid rgba(255, 255, 255, 0.72);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.68));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8));
   box-shadow: var(--shadow-md);
   backdrop-filter: blur(14px);
 }
@@ -799,6 +806,14 @@ html:lang(ko) .hero-display {
   margin-top: 0.75rem;
   color: var(--ink-700);
   font-size: 0.95rem;
+}
+
+.pub-takeaway,
+.proj-desc {
+  margin-top: 0.6rem;
+  color: var(--ink-820);
+  font-size: 0.96rem;
+  line-height: 1.6;
 }
 
 .pub-links {

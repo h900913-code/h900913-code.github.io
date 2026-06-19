@@ -12,29 +12,35 @@ pageDescription: "박정현이 참여한 주요 연구 프로젝트 목록입니
 <div class="proj-item">
   <div class="proj-title">지역 협력형 민간 RE100 이행 방안 수립 연구</div>
   <div class="proj-meta">2025년 9월 ~ 2026년 1월 | 에너지전환포럼</div>
+  <div class="proj-desc">지역 단위 협력을 통해 민간 부문의 RE100(재생에너지 100% 사용) 이행 방안을 모색한 정책 연구.</div>
 </div>
 
 <div class="proj-item">
   <div class="proj-title">IPCC 평가보고서 분석을 통한 기후전문가들의 기후변화에 대한 관심과 인식의 변화 연구</div>
   <div class="proj-meta">2023년 6월 ~ 2023년 12월 | 한국연구재단 (교육부 중견연구자지원)</div>
+  <div class="proj-desc">역대 IPCC 평가보고서를 분석해 기후 전문가들의 기후변화에 대한 관심과 인식이 시기별로 어떻게 변해 왔는지 추적한 연구.</div>
 </div>
 
 <div class="proj-item">
   <div class="proj-title">북한 국내외 연구 동향 분석을 통한 남북 기후변화 및 재생에너지 연구 협력 가능성 모색</div>
   <div class="proj-meta">2023년 4월 ~ 2024년 1월 | 서울대학교 통일평화연구원</div>
+  <div class="proj-desc">북한의 국내외 기후변화·재생에너지 연구 동향을 분석해 남북 연구 협력의 가능성과 접점을 탐색.</div>
 </div>
 
 <div class="proj-item">
   <div class="proj-title">환경대학원 교육 55주년·개원 50주년 기념 백서 발간</div>
   <div class="proj-meta">2023년 12월 ~ 2024년 2월 | 서울대학교 환경대학원 환경계획연구소</div>
+  <div class="proj-desc">환경대학원의 반세기를 기록하는 기념 백서의 발간 작업에 참여.</div>
 </div>
 
 <div class="proj-item">
   <div class="proj-title">환경대학원 교육 55주년·개원 50주년 기념 연구</div>
   <div class="proj-meta">2023년 5월 ~ 2023년 11월 | 서울대학교 환경대학원 환경계획연구소</div>
+  <div class="proj-desc">환경대학원이 반세기 동안 무엇을 가르치고 연구했는지를 돌아본 기념 연구.</div>
 </div>
 
 <div class="proj-item">
   <div class="proj-title">100MW급 수상태양광 환경성·안전성 대응을 통한 사회적 수용성 향상 방안</div>
   <div class="proj-meta">2020년 6월 ~ 2021년 2월 | 에너지기술평가원 (산업통상자원부)</div>
+  <div class="proj-desc">대규모(100MW급) 수상태양광의 환경성·안전성 쟁점에 대응해 사회적 수용성을 높이는 방안을 연구.</div>
 </div>

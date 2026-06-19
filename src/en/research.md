@@ -6,7 +6,7 @@ pageDescription: "Research themes and methods of Park Jeonghyeon in environmenta
 <div class="page-intro">
   <p class="eyebrow">Research Agenda</p>
   <h1>Research Interests</h1>
-  <p>His work connects environmental communication and text mining across climate crisis discourse, energy policy, inter-Korean environmental cooperation, and the analysis of IPCC assessment reports.</p>
+  <p>Working at the intersection of environmental communication and text mining, he studies how the climate crisis is represented, communicated, and contested across media and online public spheres. Drawing on large-scale text such as news articles and comments, he applies topic modeling, network analysis, and content analysis to examine the structure and change of climate discourse, combining social-scientific inquiry with computational methods. From climate crisis discourse, his work extends to the social acceptance of energy policy, inter-Korean environmental and renewable-energy research cooperation, and the analysis of IPCC assessment reports.</p>
 </div>
 
 <div class="feature-grid">

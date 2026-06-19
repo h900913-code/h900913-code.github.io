@@ -12,6 +12,7 @@ pageDescription: "Academic homepage of Park Jeonghyeon, who completed doctoral c
     <div class="hero-actions">
       <a class="button button-primary" href="/en/publications/">View Publications</a>
       <a class="button button-secondary" href="/en/contact/">Get in Touch</a>
+      <a class="button button-secondary" href="/assets/cv/Park_Jeonghyeon_CV.pdf">CV (PDF)</a>
     </div>
 
     <ul class="pill-list">
@@ -73,6 +74,21 @@ pageDescription: "Academic homepage of Park Jeonghyeon, who completed doctoral c
       <span class="snapshot-label">Languages</span>
     </div>
     <p>Korean, English, Chinese, and Mongolian</p>
+  </div>
+</section>
+
+<section class="section-block">
+  <div class="section-heading">
+    <p class="section-kicker">News</p>
+    <h2>News</h2>
+  </div>
+  <div class="section-panel">
+    <ul class="compact-list">
+      <li><strong>Jun 2026</strong> — Presented at the 2026 KAIDEC Summer Conference (Dongseo University Centum Campus): "The Translation and Reconstruction of Climate Change Agendas in International Development Cooperation."</li>
+      <li><strong>Nov 2025</strong> — Presented at the 2025 Conference of the Korean Association for Environmental Sociology.</li>
+      <li><strong>2025</strong> — Selected for the FREE Doctoral Fellowship Initiative (2025, 2026).</li>
+      <li><strong>Oct 2024</strong> — Co-authored article published in the Journal of Peace and Unification Studies.</li>
+    </ul>
   </div>
 </section>
 
