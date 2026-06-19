@@ -9,6 +9,15 @@ pageDescription: "Journal articles, conference presentations, awards, and schola
   <p>This page brings together journal articles, conference presentations, awards, and scholarships, covering both first-author work and collaborative research.</p>
 </div>
 
+## Theses
+
+<div class="pub-item">
+  <div class="pub-title">Climate Crisis Perception and Attitudes in Online Spaces: Focusing on Naver News and Comments on the 2020 Summer Extreme Weather Events</div>
+  <div class="pub-meta"><strong>Park, J.</strong> Master's Thesis, Department of Environmental Planning, Graduate School of Environmental Studies, Seoul National University. Aug. 2021. <em>(Outstanding Thesis, Faculty Committee)</em></div>
+</div>
+
+---
+
 ## Journal Articles
 
 ### First Author
@@ -63,6 +72,11 @@ pageDescription: "Journal articles, conference presentations, awards, and schola
   <div class="pub-links">
     <a class="pub-link" href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12493835">Proceedings</a>
   </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-title">The Translation of Climate Change Agendas in International Development Cooperation: A Topic Modeling Analysis of Naver News Articles and Comments (2016–2025)</div>
+  <div class="pub-meta"><strong>Park, J.</strong> 2025 Conference of the Korea Association of International Development Cooperation (KAIDEC), Dongseo University, Busan. Jun. 2025.</div>
 </div>
 
 <div class="pub-item">

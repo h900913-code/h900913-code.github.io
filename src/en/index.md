@@ -62,7 +62,7 @@ pageDescription: "Academic homepage of Park Jeonghyeon, who completed doctoral c
   </div>
   <div class="snapshot-card">
     <div>
-      <span class="snapshot-value">8</span>
+      <span class="snapshot-value">9</span>
       <span class="snapshot-label">Conference Talks</span>
     </div>
     <p>Domestic and international academic presentations</p>
