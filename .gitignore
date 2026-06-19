@@ -3,3 +3,6 @@ _site/
 .DS_Store
 Thumbs.db
 .claude/
+
+# cv.json에서 파생 — 필요 시 python tools/export_cv.py 로 재생성
+exports/

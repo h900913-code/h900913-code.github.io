@@ -1,0 +1,165 @@
+{
+  "_meta": {
+    "purpose": "박정현 연구실적 단일 정본(SSoT). 홈페이지·PDF CV·지원서 실적목록이 여기서 파생. 추가/수정은 이 파일 한 곳만.",
+    "updated": "2026-06-19",
+    "note": "날짜는 YYYY-MM. role: first(주저자)/co(공동)/other(기타). 한 항목 추가 시 ko/en 둘 다 채울 것."
+  },
+  "theses": [
+    {
+      "title": { "ko": "온라인 공간 속 기후위기 인식과 태도: 2020년 여름 이상기후현상을 다룬 네이버뉴스와 댓글을 중심으로", "en": "Climate Crisis Perception and Attitudes in Online Spaces: Focusing on Naver News and Comments on the 2020 Summer Extreme Weather Events" },
+      "degree": { "ko": "석사학위논문", "en": "Master's Thesis" },
+      "venue": { "ko": "서울대학교 환경대학원 환경계획학과", "en": "Department of Environmental Planning, Graduate School of Environmental Studies, Seoul National University" },
+      "date": "2021-08",
+      "note": { "ko": "환경대학원 교수회 선정 우수학위논문", "en": "Outstanding Thesis, Faculty Committee" },
+      "links": []
+    }
+  ],
+  "journal_articles": [
+    {
+      "role": "first",
+      "title": { "ko": "기후위기 관련 인터넷기사 토픽모델링 분석: 2020년 여름 이상기후 현상을 중심으로", "en": "A Topic Modeling Analysis of Internet Articles Related to the Climate Crisis: Focusing on the Extreme Weather Events in Summer of 2020" },
+      "authors": { "ko": "**박정현**, 윤순진", "en": "**Park, J.** & Yun, S.-J." },
+      "venue": { "ko": "사회과학연구, 61(3), 279-300", "en": "Journal of Social Science, 61(3), 279-300" },
+      "date": "2022-12",
+      "note": { "ko": "(KCI 등재)", "en": "(KCI indexed)" },
+      "links": [{ "label": "DOI", "url": "https://doi.org/10.22418/JSS.2022.12.61.3.279" }]
+    },
+    {
+      "role": "co",
+      "title": { "ko": "김정은 시기 재생에너지에 관한 북한 내 연구와 국제 협력 연구 동향", "en": "Trends in Research on Renewable Energy within North Korea and International Collaboration during Kim Jong Un Era" },
+      "authors": { "ko": "윤순진, **박정현**, 김은진", "en": "Yun, S.-J., **Park, J.**, & Kim, E." },
+      "venue": { "ko": "통일과 평화", "en": "Journal of Peace and Unification Studies" },
+      "date": "2024-10",
+      "note": { "ko": "(KCI 등재)", "en": "(KCI indexed)" },
+      "links": [
+        { "label": "DOI", "url": "https://doi.org/10.35369/jpus.16.2.202409.169" },
+        { "label": "Journal", "url": "https://ipus.snu.ac.kr/blog/archives/publishing/9873" }
+      ]
+    },
+    {
+      "role": "co",
+      "title": { "ko": "김정은 시기 북한의 국내 기후변화 연구와 국제 연구 협력 동향: 연구 주제 분석", "en": "Domestic Climate Change Research and International Research Cooperation Trends in North Korea under Kim Jong Un's Leadership: A Research Topic Analysis" },
+      "authors": { "ko": "윤순진, 김은진, **박정현**", "en": "Yun, S.-J., Kim, E., & **Park, J.**" },
+      "venue": { "ko": "환경정책", "en": "Journal of Environmental Policy and Administration" },
+      "date": "2024-09",
+      "note": { "ko": "(KCI 등재)", "en": "(KCI indexed)" },
+      "links": [
+        { "label": "DOI", "url": "https://doi.org/10.15301/jepa.2024.32.3.123" },
+        { "label": "Journal", "url": "https://jepa.or.kr/_common/do.php?a=full&aidx=42936&b=22&bidx=3886" }
+      ]
+    },
+    {
+      "role": "other",
+      "title": { "ko": "환경대학원은 지난 반 세기 동안 무엇을 가르치고 연구했는가? (환경대학원 교육 55주년·개원 50주년 기념 연구)", "en": "What Has the Graduate School of the Environment Taught and Researched over the Past Half-Century?" },
+      "authors": { "ko": "김태형, 윤순진, 김현지, **박정현**, 조형욱, 하지훈, 김지연, 정선우", "en": "Gim, T.-H. T., Yun, S.-J., Kim, H., **Park, J.**, Cho, H., Ha, J., Kim, J., & Jeong, S." },
+      "venue": { "ko": "환경논총, 72, 6-58", "en": "Journal of Environmental Studies, 72, 6-58" },
+      "date": "2023-11",
+      "note": { "ko": "", "en": "" },
+      "links": [{ "label": "Journal", "url": "https://gses.snu.ac.kr/en/publication/journal-of-environmental-studies?jesidx=22&md=view" }]
+    }
+  ],
+  "presentations": [
+    {
+      "role": "first",
+      "title": { "ko": "국내 환경커뮤니케이션 분야 텍스트 마이닝 방법론 사용 현황 검토: 상용소프트웨어 사용을 중심으로", "en": "A Review of Text Mining Methods in Domestic Environmental Communication Research: Focusing on the Use of Commercial Software" },
+      "authors": { "ko": "**박정현**", "en": "**Park, J.**" },
+      "venue": { "ko": "2025 한국환경사회학회 정기학술대회, 서울", "en": "2025 Annual Conference of the Korean Association for Environmental Sociology, Seoul" },
+      "date": "2025-11",
+      "note": { "ko": "", "en": "" },
+      "links": [{ "label": "Proceedings", "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12493835" }]
+    },
+    {
+      "role": "first",
+      "title": { "ko": "기후변화 국제개발협력 의제의 번역: 네이버 뉴스 기사·댓글의 토픽모델링 분석(2016–2025)", "en": "The Translation of Climate Change Agendas in International Development Cooperation: A Topic Modeling Analysis of Naver News Articles and Comments (2016–2025)" },
+      "authors": { "ko": "**박정현**", "en": "**Park, J.**" },
+      "venue": { "ko": "2025 국제개발협력학회 학술대회, 동서대학교, 부산", "en": "2025 Conference of the Korea Association of International Development Cooperation (KAIDEC), Dongseo University, Busan" },
+      "date": "2025-06",
+      "note": { "ko": "", "en": "" },
+      "links": []
+    },
+    {
+      "role": "first",
+      "title": { "ko": "기후위기 관련 인터넷기사 댓글 분석: 2020년 여름 이상기후현상 시기를 중심으로", "en": "Analyzing Comments on Internet Articles about the Climate Crisis: Focusing on the Timing of the 2020 Summer Extreme Weather Event" },
+      "authors": { "ko": "**박정현**, 윤순진", "en": "**Park, J.** & Yun, S.-J." },
+      "venue": { "ko": "2024 한국환경사회학회 정기학술대회, 청주", "en": "2024 Annual Conference of the Korean Association for Environmental Sociology, Cheongju" },
+      "date": "2024-11",
+      "note": { "ko": "", "en": "" },
+      "links": [{ "label": "Proceedings", "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11994268" }]
+    },
+    {
+      "role": "first",
+      "title": { "ko": "코로나 전후 관악학생생활관 에너지 및 자원 사용량 분석", "en": "Analysis of Energy and Resource Consumption in Gwanak Student Residence Hall Before and After COVID-19" },
+      "authors": { "ko": "**박정현**, 윤순진", "en": "**Park, J.** & Yun, S.-J." },
+      "venue": { "ko": "제2회 겨울 기후환경 대학(원)생 연구워크숍, 서울", "en": "2022-2023 Winter Climate and Environment Undergraduate and Graduate Student Research Workshop, Seoul" },
+      "date": "2023-01",
+      "note": { "ko": "", "en": "" },
+      "links": [{ "label": "Newsletter", "url": "https://gses.snu.ac.kr/publication/newsletter?letteridx=30&md=download" }]
+    },
+    {
+      "role": "first",
+      "title": { "ko": "An Analysis of Energy and Resource Usage in Dormitory: A Case Study of Seoul National University's Gwanak Residence Hall", "en": "An Analysis of Energy and Resource Usage in Dormitory: A Case Study of Seoul National University's Gwanak Residence Hall" },
+      "authors": { "ko": "**박정현**, 윤순진", "en": "**Park, J.** & Yun, S.-J." },
+      "venue": { "ko": "Urban Transitions 2022, International Joint Conference, Sitges, Spain", "en": "Urban Transitions 2022, International Joint Conference, Sitges, Spain" },
+      "date": "2022-11",
+      "note": { "ko": "", "en": "" },
+      "links": [{ "label": "Program", "url": "https://assets.ctfassets.net/o78em1y1w4i4/5IG0J3qrMhimX22ikEWZaD/dd681765878c829d6a76c1b2d60b6282/Urban_Transitions_2022_oral_program.pdf" }]
+    },
+    {
+      "role": "first",
+      "title": { "ko": "토픽모델링과 내용분석을 통해 본 기후위기 담론 지형 — 2020년 여름 극한기상현상 기간 네이버 뉴스 및 댓글을 중심으로", "en": "Climate Crisis Discourse Terrain through Topic Modeling and Content Analysis — Focusing on Naver News and Comments during Extreme Weather Events in Summer 2020" },
+      "authors": { "ko": "**박정현**, 윤순진", "en": "**Park, J.** & Yun, S.-J." },
+      "venue": { "ko": "한국기후변화학회 2021년 상반기 학술대회, 서울", "en": "2021 Spring Conference of the Korean Society for Climate Change Research, Seoul" },
+      "date": "2021-06",
+      "note": { "ko": "", "en": "" },
+      "links": [{ "label": "Abstract", "url": "https://kscc.re.kr/2021kscc/papers/Oral/OB-18.pdf" }]
+    },
+    {
+      "role": "first",
+      "title": { "ko": "전환의 관점에서 본 국내 INGO 푸른아시아의 몽골 사막화방지모델: 성공 요인과 시사점", "en": "Desertification Prevention Model of INGO \"Green Asia Network\" in Mongolia from the Perspective of Transformation: Main Factors of Success and Implications" },
+      "authors": { "ko": "**박정현**, 윤순진", "en": "**Park, J.** & Yun, S.-J." },
+      "venue": { "ko": "2020년도 한국환경정책행정학회 추계학술대회, 서울", "en": "2020 Autumn Conference of Korea Environmental Policy and Administration Society, Seoul" },
+      "date": "2020-09",
+      "note": { "ko": "(우수논문발표 선정)", "en": "(Outstanding Paper Award)" },
+      "links": [{ "label": "Conference", "url": "https://kepas.or.kr/board/event/article/53488" }]
+    },
+    {
+      "role": "co",
+      "title": { "ko": "기후변화 분야 북한 국내외 연구 동향 분석", "en": "Analysis of Climate Change Research Trends in North Korea" },
+      "authors": { "ko": "윤순진, 김은진, **박정현**", "en": "Yun, S.-J., Kim, E., & **Park, J.**" },
+      "venue": { "ko": "2024년 한국환경정책학회 춘계 학술대회", "en": "2024 Spring Conference of the Korean Society for Environmental Policy" },
+      "date": "2024-02",
+      "note": { "ko": "", "en": "" },
+      "links": [{ "label": "Program", "url": "https://kepas.or.kr/society/kepas/file/download/774?view=1" }]
+    },
+    {
+      "role": "co",
+      "title": { "ko": "북한 국내외 연구 동향 분석을 통한 남북 기후변화 연구 협력 가능성 탐색", "en": "Exploring the Possibility of Inter-Korean Climate Change Research Cooperation through the Analysis of Domestic and International Research Trends of North Korean Researchers" },
+      "authors": { "ko": "윤순진, 김은진, **박정현**", "en": "Yun, S.-J., Kim, E., & **Park, J.**" },
+      "venue": { "ko": "2023 서울대학교 통일·평화기반구축 연합학술대회, 서울", "en": "2023 Seoul National University Joint Conference on Unification and Peacebuilding Infrastructure, Seoul" },
+      "date": "2023-11",
+      "note": { "ko": "", "en": "" },
+      "links": [{ "label": "Conference", "url": "https://ipus.snu.ac.kr/blog/archives/conference/8354" }]
+    }
+  ],
+  "awards": [
+    { "title": { "ko": "우수 대표조교 표창", "en": "Outstanding Representative Resident Director Award" }, "year": 2025, "org": { "ko": "서울대학교 관악학생생활관", "en": "Seoul National University" } },
+    { "title": { "ko": "환경대학원 교수회 선정 우수학위논문 표창", "en": "Award for Outstanding Thesis by Faculty Committee, Graduate School of Environmental Studies" }, "year": 2021, "org": { "ko": "서울대학교 환경대학원", "en": "Seoul National University" } },
+    { "title": { "ko": "2020년도 추계학술대회 우수논문발표 선정", "en": "Outstanding Presentation at 2020 Autumn Academic Conference" }, "year": 2020, "org": { "ko": "한국환경정책행정학회", "en": "Korea Environmental Policy and Administration Society" } },
+    { "title": { "ko": "우수조교 표창", "en": "Outstanding Resident Advisor Award" }, "year": 2020, "org": { "ko": "서울대학교 관악학생생활관", "en": "Seoul National University" } }
+  ],
+  "scholarships": [
+    { "title": { "ko": "FREE Doctoral Fellowship Initiative", "en": "FREE Doctoral Fellowship Initiative" }, "years": [2025, 2026], "org": { "ko": "Foundation for Renewable Energy & Environment, New York", "en": "Foundation for Renewable Energy & Environment, New York" } },
+    { "title": { "ko": "Brain Korea 21 장학금", "en": "Brain Korea 21 Scholarship" }, "years": [2021, 2022, 2023], "org": { "ko": "교육부", "en": "Ministry of Education, Korea" } },
+    { "title": { "ko": "학업 우수 장학금", "en": "Academic Excellence Scholarship" }, "years": [2020, 2022], "org": { "ko": "서울대학교", "en": "Seoul National University" } },
+    { "title": { "ko": "KOICA/월드프렌즈 한국 장학금", "en": "KOICA/World Friends Korea Scholarship" }, "years": [2020], "org": { "ko": "한국국제협력단", "en": "Korea International Cooperation Agency" } },
+    { "title": { "ko": "신입생 특별 장학금", "en": "Special Scholarship for Freshmen" }, "years": [2010], "org": { "ko": "고려대학교", "en": "Korea University" } }
+  ],
+  "projects": [
+    { "title": { "ko": "지역 협력형 민간 RE100 이행 방안 수립 연구", "en": "Study on Community-Cooperative Private RE100 Implementation" }, "period": { "ko": "2025년 9월 ~ 2026년 1월", "en": "Sept. 2025 ~ Jan. 2026" }, "org": { "ko": "에너지전환포럼", "en": "Energy Transition Forum" } },
+    { "title": { "ko": "IPCC 평가보고서 분석을 통한 기후전문가들의 기후변화에 대한 관심과 인식의 변화 연구", "en": "Study on Changes in Climate Experts' Attention and Perception of Climate Change through IPCC Assessment Report Analysis" }, "period": { "ko": "2023년 6월 ~ 2023년 12월", "en": "Jun. 2023 ~ Dec. 2023" }, "org": { "ko": "한국연구재단 (교육부 중견연구자지원)", "en": "National Research Foundation of Korea" } },
+    { "title": { "ko": "북한 국내외 연구 동향 분석을 통한 남북 기후변화 및 재생에너지 연구 협력 가능성 모색", "en": "Exploring Inter-Korean Climate Change and Renewable Energy Research Cooperation through Analysis of North Korean Research Trends" }, "period": { "ko": "2023년 4월 ~ 2024년 1월", "en": "Apr. 2023 ~ Jan. 2024" }, "org": { "ko": "서울대학교 통일평화연구원", "en": "Institute for Peace and Unification Studies, SNU" } },
+    { "title": { "ko": "환경대학원 교육 55주년·개원 50주년 기념 백서 발간", "en": "Publication of the White Paper Commemorating the 55th Anniversary of Education and 50th Anniversary of the Graduate School of Environmental Studies" }, "period": { "ko": "2023년 12월 ~ 2024년 2월", "en": "Dec. 2023 ~ Feb. 2024" }, "org": { "ko": "서울대학교 환경대학원 환경계획연구소", "en": "Environmental Planning Institute, GSES, SNU" } },
+    { "title": { "ko": "환경대학원 교육 55주년·개원 50주년 기념 연구", "en": "Research Commemorating the 55th Anniversary of Education and 50th Anniversary of the Graduate School of Environmental Studies" }, "period": { "ko": "2023년 5월 ~ 2023년 11월", "en": "May 2023 ~ Nov. 2023" }, "org": { "ko": "서울대학교 환경대학원 환경계획연구소", "en": "Environmental Planning Institute, GSES, SNU" } },
+    { "title": { "ko": "100MW급 수상태양광 환경성·안전성 대응을 통한 사회적 수용성 향상 방안", "en": "Improving Social Acceptance of 100MW Floating Photovoltaics through Environmental and Safety Measures" }, "period": { "ko": "2020년 6월 ~ 2021년 2월", "en": "Jun. 2020 ~ Feb. 2021" }, "org": { "ko": "에너지기술평가원 (산업통상자원부)", "en": "Korea Institute of Energy Technology Evaluation and Planning" } }
+  ]
+}
